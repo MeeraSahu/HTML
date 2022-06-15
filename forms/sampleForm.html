@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Forms with GET Action">
+        <title>Forms with GET Action</title>
+    </head>
+    <body>
+        <h1>Event Registration</h1>
+        <form method="get" action="results.html">
+            <p>
+                <label for="company">Company</label>
+                <input id="company" type="text">
+            </p>
+            <p>
+                <label for="FirstName">First Name</label>
+                <input id="FirstName" type="text">
+            </p>
+            <p>
+                <label for="LastName">Last Name</label>
+                <input id="LastName" type="text">
+            </p>
+            <p>
+                <label for="Email">Email Address</label>
+                <input id="Email" type="email">
+            </p>
+            <p>
+                <label for="title">Title</label>
+                <input id="title" type="text">
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input id="Phone" type="tel">
+            </p>
+            <p>
+                <label for="VIP">VIP Pass</label>
+                <input id="VIP" type="checkbox">
+            </p>
+            <p>
+                <label for="state">Select state</label>
+                <select id="state">
+                    <optgroup label="--Select state--">
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha (Orissa)</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>West Bengal</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                    </optgroup>
+                </select>
+            </p>
+                <fieldset>
+                    <legend>Select Gender</legend>
+                        <label for="gender_male">Male</label>
+                        <input id="gender_male" name="gender_data" type="radio" checked>
+                        <label for="gender_female">Female</label>
+                        <input id="gender_female" name="gender_data" type="radio">
+                </fieldset>
+            </p>
+            <p>
+                <label >Experiance</label>
+                <textarea row="5"cols="20" type="text"></textarea>
+            </p>
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+        </form>
+    </body>
+</html>
